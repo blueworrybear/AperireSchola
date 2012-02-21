@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+//bear
+
 @implementation ViewController
 
 - (void)didReceiveMemoryWarning
