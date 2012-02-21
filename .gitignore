@@ -9,6 +9,7 @@
 *.xcuserstate
 project.xcworkspace/
 xcuserdata/
+AperireSchola.xcodeproj/
 
 # Generated files
 *.o
