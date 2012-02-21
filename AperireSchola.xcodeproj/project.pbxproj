@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0926B24614F3CD3600BE1616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88614F3AC740045AE6D /* UIKit.framework */; };
+		0926B24714F3CD3600BE1616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88814F3AC740045AE6D /* Foundation.framework */; };
+		0926B24814F3CD3600BE1616 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88A14F3AC740045AE6D /* CoreGraphics.framework */; };
+		0926B24E14F3CD3600BE1616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0926B24C14F3CD3600BE1616 /* InfoPlist.strings */; };
+		0926B26314F3CD9D00BE1616 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0926B26214F3CD9D00BE1616 /* GHUnitIOS.framework */; };
+		0926B26514F3CE6B00BE1616 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926B26414F3CE6B00BE1616 /* GHUnitIOSTestMain.m */; };
+		0926B26814F3CEE000BE1616 /* SampleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926B26714F3CEE000BE1616 /* SampleTestCase.m */; };
+		0926B26B14F3CF8E00BE1616 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0926B26A14F3CF8E00BE1616 /* libOCMock.a */; };
 		0992D88714F3AC740045AE6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88614F3AC740045AE6D /* UIKit.framework */; };
 		0992D88914F3AC740045AE6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88814F3AC740045AE6D /* Foundation.framework */; };
 		0992D88B14F3AC740045AE6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88A14F3AC740045AE6D /* CoreGraphics.framework */; };
@@ -19,23 +27,49 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0926B24414F3CD3600BE1616 /* AperireScholaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AperireScholaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926B24B14F3CD3600BE1616 /* AperireScholaTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AperireScholaTest-Info.plist"; sourceTree = "<group>"; };
+		0926B24D14F3CD3600BE1616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0926B25114F3CD3600BE1616 /* AperireScholaTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AperireScholaTest-Prefix.pch"; sourceTree = "<group>"; };
+		0926B26214F3CD9D00BE1616 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		0926B26414F3CE6B00BE1616 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		0926B26714F3CEE000BE1616 /* SampleTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTestCase.m; sourceTree = "<group>"; };
+		0926B26A14F3CF8E00BE1616 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		0926B26D14F3CFE400BE1616 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		0926B26E14F3CFE400BE1616 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		0926B26F14F3CFE400BE1616 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		0926B27014F3CFE400BE1616 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		0926B27114F3CFE400BE1616 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		0926B27214F3CFE400BE1616 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		0992D88214F3AC740045AE6D /* AperireSchola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AperireSchola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0992D88614F3AC740045AE6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0992D88814F3AC740045AE6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0992D88A14F3AC740045AE6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0992D88E14F3AC740045AE6D /* AperireSchola-Info.plist */ = {isa = PBXFileReference; path = "AperireSchola-Info.plist"; sourceTree = "<group>"; };
+		0992D88E14F3AC740045AE6D /* AperireSchola-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AperireSchola-Info.plist"; sourceTree = "<group>"; };
 		0992D89014F3AC740045AE6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0992D89214F3AC740045AE6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0992D89414F3AC740045AE6D /* AperireSchola-Prefix.pch */ = {isa = PBXFileReference; path = "AperireSchola-Prefix.pch"; sourceTree = "<group>"; };
-		0992D89514F3AC740045AE6D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0992D89414F3AC740045AE6D /* AperireSchola-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AperireSchola-Prefix.pch"; sourceTree = "<group>"; };
+		0992D89514F3AC740045AE6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0992D89614F3AC740045AE6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0992D89814F3AC740045AE6D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0992D89814F3AC740045AE6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0992D89914F3AC740045AE6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0992D89C14F3AC750045AE6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		0992D89F14F3AC750045AE6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0926B24114F3CD3600BE1616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926B26314F3CD9D00BE1616 /* GHUnitIOS.framework in Frameworks */,
+				0926B24614F3CD3600BE1616 /* UIKit.framework in Frameworks */,
+				0926B24714F3CD3600BE1616 /* Foundation.framework in Frameworks */,
+				0926B24814F3CD3600BE1616 /* CoreGraphics.framework in Frameworks */,
+				0926B26B14F3CF8E00BE1616 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0992D87F14F3AC740045AE6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,10 +83,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0926B24914F3CD3600BE1616 /* AperireScholaTest */ = {
+			isa = PBXGroup;
+			children = (
+				0926B26714F3CEE000BE1616 /* SampleTestCase.m */,
+				0926B24A14F3CD3600BE1616 /* Supporting Files */,
+			);
+			path = AperireScholaTest;
+			sourceTree = "<group>";
+		};
+		0926B24A14F3CD3600BE1616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0926B26414F3CE6B00BE1616 /* GHUnitIOSTestMain.m */,
+				0926B24B14F3CD3600BE1616 /* AperireScholaTest-Info.plist */,
+				0926B24C14F3CD3600BE1616 /* InfoPlist.strings */,
+				0926B25114F3CD3600BE1616 /* AperireScholaTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0926B26914F3CF6600BE1616 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0926B26C14F3CFE400BE1616 /* OCMock */,
+				0926B26A14F3CF8E00BE1616 /* libOCMock.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		0926B26C14F3CFE400BE1616 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				0926B26D14F3CFE400BE1616 /* NSNotificationCenter+OCMAdditions.h */,
+				0926B26E14F3CFE400BE1616 /* OCMArg.h */,
+				0926B26F14F3CFE400BE1616 /* OCMConstraint.h */,
+				0926B27014F3CFE400BE1616 /* OCMock.h */,
+				0926B27114F3CFE400BE1616 /* OCMockObject.h */,
+				0926B27214F3CFE400BE1616 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
 		0992D87714F3AC740045AE6D = {
 			isa = PBXGroup;
 			children = (
+				0926B26914F3CF6600BE1616 /* Libraries */,
 				0992D88C14F3AC740045AE6D /* AperireSchola */,
+				0926B24914F3CD3600BE1616 /* AperireScholaTest */,
 				0992D88514F3AC740045AE6D /* Frameworks */,
 				0992D88314F3AC740045AE6D /* Products */,
 			);
@@ -62,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				0992D88214F3AC740045AE6D /* AperireSchola.app */,
+				0926B24414F3CD3600BE1616 /* AperireScholaTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +148,7 @@
 		0992D88514F3AC740045AE6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0926B26214F3CD9D00BE1616 /* GHUnitIOS.framework */,
 				0992D88614F3AC740045AE6D /* UIKit.framework */,
 				0992D88814F3AC740045AE6D /* Foundation.framework */,
 				0992D88A14F3AC740045AE6D /* CoreGraphics.framework */,
@@ -104,6 +184,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0926B24314F3CD3600BE1616 /* AperireScholaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0926B26014F3CD3600BE1616 /* Build configuration list for PBXNativeTarget "AperireScholaTest" */;
+			buildPhases = (
+				0926B24014F3CD3600BE1616 /* Sources */,
+				0926B24114F3CD3600BE1616 /* Frameworks */,
+				0926B24214F3CD3600BE1616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AperireScholaTest;
+			productName = AperireScholaTest;
+			productReference = 0926B24414F3CD3600BE1616 /* AperireScholaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0992D88114F3AC740045AE6D /* AperireSchola */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0992D8A314F3AC750045AE6D /* Build configuration list for PBXNativeTarget "AperireSchola" */;
@@ -142,11 +239,20 @@
 			projectRoot = "";
 			targets = (
 				0992D88114F3AC740045AE6D /* AperireSchola */,
+				0926B24314F3CD3600BE1616 /* AperireScholaTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0926B24214F3CD3600BE1616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926B24E14F3CD3600BE1616 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0992D88014F3AC740045AE6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +266,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0926B24014F3CD3600BE1616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926B26514F3CE6B00BE1616 /* GHUnitIOSTestMain.m in Sources */,
+				0926B26814F3CEE000BE1616 /* SampleTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0992D87E14F3AC740045AE6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +288,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0926B24C14F3CD3600BE1616 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0926B24D14F3CD3600BE1616 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		0992D88F14F3AC740045AE6D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -200,6 +323,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0926B25E14F3CD3600BE1616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AperireScholaTest/AperireScholaTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "AperireScholaTest/AperireScholaTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0926B25F14F3CD3600BE1616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AperireScholaTest/AperireScholaTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "AperireScholaTest/AperireScholaTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		0992D8A114F3AC750045AE6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -270,6 +443,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0926B26014F3CD3600BE1616 /* Build configuration list for PBXNativeTarget "AperireScholaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0926B25E14F3CD3600BE1616 /* Debug */,
+				0926B25F14F3CD3600BE1616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0992D87C14F3AC740045AE6D /* Build configuration list for PBXProject "AperireSchola" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -286,6 +467,7 @@
 				0992D8A514F3AC750045AE6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
