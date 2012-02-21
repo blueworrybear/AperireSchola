@@ -8,6 +8,7 @@
 *.perspectivev3
 *.xcuserstate
 xcuserdata/
+bear.xcuserdata/
 
 # Generated files
 *.o
