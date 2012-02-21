@@ -9,6 +9,8 @@
 #import <GHUnitIOS/GHUnit.h>
 #import <OCMock/OCMock.h>
 
+//Testing unit sample
+
 @interface SampleLibTest : GHTestCase { }
 @end
 
