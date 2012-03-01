@@ -15,6 +15,11 @@
 		0926B26514F3CE6B00BE1616 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926B26414F3CE6B00BE1616 /* GHUnitIOSTestMain.m */; };
 		0926B26814F3CEE000BE1616 /* SampleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926B26714F3CEE000BE1616 /* SampleTestCase.m */; };
 		0926B26B14F3CF8E00BE1616 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0926B26A14F3CF8E00BE1616 /* libOCMock.a */; };
+		0985CA0414FB7B5A007F6800 /* CourseOutlineViewTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985CA0314FB7B5A007F6800 /* CourseOutlineViewTestCase.m */; };
+		0985CA0614FB7D89007F6800 /* SingleImageBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DCE1B414F7C16B001DA2C7 /* SingleImageBannerView.m */; };
+		0985CA3814FDC757007F6800 /* BannerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985CA3714FDC757007F6800 /* BannerFactory.m */; };
+		0985CA4D14FDDB45007F6800 /* BannerInformationDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985CA4C14FDDB45007F6800 /* BannerInformationDomain.m */; };
+		0985CA5014FDDB5F007F6800 /* BannerInfo_SingleImageCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985CA4F14FDDB5F007F6800 /* BannerInfo_SingleImageCapture.m */; };
 		0992D88714F3AC740045AE6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88614F3AC740045AE6D /* UIKit.framework */; };
 		0992D88914F3AC740045AE6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88814F3AC740045AE6D /* Foundation.framework */; };
 		0992D88B14F3AC740045AE6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0992D88A14F3AC740045AE6D /* CoreGraphics.framework */; };
@@ -24,6 +29,10 @@
 		0992D89A14F3AC740045AE6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992D89914F3AC740045AE6D /* ViewController.m */; };
 		0992D89D14F3AC750045AE6D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992D89B14F3AC750045AE6D /* ViewController_iPhone.xib */; };
 		0992D8A014F3AC750045AE6D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992D89E14F3AC750045AE6D /* ViewController_iPad.xib */; };
+		099E292914FF67B2001EAEF7 /* ArticleTextWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099E292814FF67B2001EAEF7 /* ArticleTextWebView.m */; };
+		09DCE17714F75456001DA2C7 /* OCMockObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DCE17614F75456001DA2C7 /* OCMockObjectTests.m */; };
+		09DCE17B14F754E8001DA2C7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DCE17A14F754E8001DA2C7 /* SenTestingKit.framework */; };
+		09DCE1B514F7C16B001DA2C7 /* SingleImageBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DCE1B414F7C16B001DA2C7 /* SingleImageBannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +50,14 @@
 		0926B27014F3CFE400BE1616 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		0926B27114F3CFE400BE1616 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		0926B27214F3CFE400BE1616 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		0985CA0314FB7B5A007F6800 /* CourseOutlineViewTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseOutlineViewTestCase.m; sourceTree = "<group>"; };
+		0985CA0C14FB8703007F6800 /* CourseMssagePassingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseMssagePassingDelegate.h; sourceTree = "<group>"; };
+		0985CA3614FDC757007F6800 /* BannerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerFactory.h; sourceTree = "<group>"; };
+		0985CA3714FDC757007F6800 /* BannerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerFactory.m; sourceTree = "<group>"; };
+		0985CA4B14FDDB45007F6800 /* BannerInformationDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerInformationDomain.h; sourceTree = "<group>"; };
+		0985CA4C14FDDB45007F6800 /* BannerInformationDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerInformationDomain.m; sourceTree = "<group>"; };
+		0985CA4E14FDDB5F007F6800 /* BannerInfo_SingleImageCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerInfo_SingleImageCapture.h; sourceTree = "<group>"; };
+		0985CA4F14FDDB5F007F6800 /* BannerInfo_SingleImageCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerInfo_SingleImageCapture.m; sourceTree = "<group>"; };
 		0992D88214F3AC740045AE6D /* AperireSchola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AperireSchola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0992D88614F3AC740045AE6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0992D88814F3AC740045AE6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,6 +72,13 @@
 		0992D89914F3AC740045AE6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0992D89C14F3AC750045AE6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		0992D89F14F3AC750045AE6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		099E292714FF67B2001EAEF7 /* ArticleTextWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTextWebView.h; sourceTree = "<group>"; };
+		099E292814FF67B2001EAEF7 /* ArticleTextWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTextWebView.m; sourceTree = "<group>"; };
+		09DCE17614F75456001DA2C7 /* OCMockObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockObjectTests.m; sourceTree = "<group>"; };
+		09DCE17914F754B1001DA2C7 /* OCMockObjectTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObjectTests.h; sourceTree = "<group>"; };
+		09DCE17A14F754E8001DA2C7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		09DCE1B314F7C16B001DA2C7 /* SingleImageBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleImageBannerView.h; sourceTree = "<group>"; };
+		09DCE1B414F7C16B001DA2C7 /* SingleImageBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleImageBannerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DCE17B14F754E8001DA2C7 /* SenTestingKit.framework in Frameworks */,
 				0926B26314F3CD9D00BE1616 /* GHUnitIOS.framework in Frameworks */,
 				0926B24614F3CD3600BE1616 /* UIKit.framework in Frameworks */,
 				0926B24714F3CD3600BE1616 /* Foundation.framework in Frameworks */,
@@ -86,7 +111,10 @@
 		0926B24914F3CD3600BE1616 /* AperireScholaTest */ = {
 			isa = PBXGroup;
 			children = (
+				09DCE17914F754B1001DA2C7 /* OCMockObjectTests.h */,
+				09DCE17614F75456001DA2C7 /* OCMockObjectTests.m */,
 				0926B26714F3CEE000BE1616 /* SampleTestCase.m */,
+				0985CA0314FB7B5A007F6800 /* CourseOutlineViewTestCase.m */,
 				0926B24A14F3CD3600BE1616 /* Supporting Files */,
 			);
 			path = AperireScholaTest;
@@ -125,6 +153,26 @@
 			path = OCMock;
 			sourceTree = "<group>";
 		};
+		0985CA0B14FB8644007F6800 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0985CA0C14FB8703007F6800 /* CourseMssagePassingDelegate.h */,
+			);
+			name = Delegate;
+			path = ../Models;
+			sourceTree = "<group>";
+		};
+		0985CA4714FDD792007F6800 /* BannerInformationDomain */ = {
+			isa = PBXGroup;
+			children = (
+				0985CA4B14FDDB45007F6800 /* BannerInformationDomain.h */,
+				0985CA4C14FDDB45007F6800 /* BannerInformationDomain.m */,
+				0985CA4E14FDDB5F007F6800 /* BannerInfo_SingleImageCapture.h */,
+				0985CA4F14FDDB5F007F6800 /* BannerInfo_SingleImageCapture.m */,
+			);
+			name = BannerInformationDomain;
+			sourceTree = "<group>";
+		};
 		0992D87714F3AC740045AE6D = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +196,7 @@
 		0992D88514F3AC740045AE6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09DCE17A14F754E8001DA2C7 /* SenTestingKit.framework */,
 				0926B26214F3CD9D00BE1616 /* GHUnitIOS.framework */,
 				0992D88614F3AC740045AE6D /* UIKit.framework */,
 				0992D88814F3AC740045AE6D /* Foundation.framework */,
@@ -159,6 +208,9 @@
 		0992D88C14F3AC740045AE6D /* AperireSchola */ = {
 			isa = PBXGroup;
 			children = (
+				09DCE1AC14F7C0DD001DA2C7 /* Controllers */,
+				09DCE1AD14F7C0DD001DA2C7 /* Models */,
+				09DCE1AE14F7C0DD001DA2C7 /* Views */,
 				0992D89514F3AC740045AE6D /* AppDelegate.h */,
 				0992D89614F3AC740045AE6D /* AppDelegate.m */,
 				0992D89814F3AC740045AE6D /* ViewController.h */,
@@ -179,6 +231,51 @@
 				0992D89414F3AC740045AE6D /* AperireSchola-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		099E291F14FF6462001EAEF7 /* ArticleViews */ = {
+			isa = PBXGroup;
+			children = (
+				099E292714FF67B2001EAEF7 /* ArticleTextWebView.h */,
+				099E292814FF67B2001EAEF7 /* ArticleTextWebView.m */,
+			);
+			name = ArticleViews;
+			sourceTree = "<group>";
+		};
+		09DCE1AC14F7C0DD001DA2C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0985CA0B14FB8644007F6800 /* Delegate */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		09DCE1AD14F7C0DD001DA2C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0985CA4714FDD792007F6800 /* BannerInformationDomain */,
+				0985CA3614FDC757007F6800 /* BannerFactory.h */,
+				0985CA3714FDC757007F6800 /* BannerFactory.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09DCE1AE14F7C0DD001DA2C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				099E291F14FF6462001EAEF7 /* ArticleViews */,
+				09DCE1B214F7C112001DA2C7 /* BannerViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09DCE1B214F7C112001DA2C7 /* BannerViews */ = {
+			isa = PBXGroup;
+			children = (
+				09DCE1B314F7C16B001DA2C7 /* SingleImageBannerView.h */,
+				09DCE1B414F7C16B001DA2C7 /* SingleImageBannerView.m */,
+			);
+			name = BannerViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +369,9 @@
 			files = (
 				0926B26514F3CE6B00BE1616 /* GHUnitIOSTestMain.m in Sources */,
 				0926B26814F3CEE000BE1616 /* SampleTestCase.m in Sources */,
+				09DCE17714F75456001DA2C7 /* OCMockObjectTests.m in Sources */,
+				0985CA0414FB7B5A007F6800 /* CourseOutlineViewTestCase.m in Sources */,
+				0985CA0614FB7D89007F6800 /* SingleImageBannerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,11 @@
 				0992D89314F3AC740045AE6D /* main.m in Sources */,
 				0992D89714F3AC740045AE6D /* AppDelegate.m in Sources */,
 				0992D89A14F3AC740045AE6D /* ViewController.m in Sources */,
+				09DCE1B514F7C16B001DA2C7 /* SingleImageBannerView.m in Sources */,
+				0985CA3814FDC757007F6800 /* BannerFactory.m in Sources */,
+				0985CA4D14FDDB45007F6800 /* BannerInformationDomain.m in Sources */,
+				0985CA5014FDDB5F007F6800 /* BannerInfo_SingleImageCapture.m in Sources */,
+				099E292914FF67B2001EAEF7 /* ArticleTextWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +435,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AperireScholaTest/AperireScholaTest-Prefix.pch";
@@ -355,6 +461,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AperireScholaTest/AperireScholaTest-Prefix.pch";
@@ -450,6 +557,7 @@
 				0926B25F14F3CD3600BE1616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0992D87C14F3AC740045AE6D /* Build configuration list for PBXProject "AperireSchola" */ = {
 			isa = XCConfigurationList;
